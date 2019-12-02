@@ -69,4 +69,5 @@ document.getElementById("copyBtn").addEventListener("click", function() {
     textarea = document.getElementById("passwordTextArea");
     textarea.select();
     document.execCommand("copy");
+    alert("Your password" + newPasswordCreated + " has been saved to clipboard")
 });
